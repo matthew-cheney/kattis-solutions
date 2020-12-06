@@ -1,0 +1,5 @@
+line = input().split(' ')
+n = int(line[0])
+h = int(line[1])
+v = int(line[2])
+print(4 * max(n - h, h) * max(n - v, v))
